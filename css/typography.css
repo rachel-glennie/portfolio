@@ -1,0 +1,749 @@
+/*
+  Typografier || Code released under the UNLICENSE
+  http://typografier.web-dev.tools/#0,100,1.499,1.125;38,110,1.6,1.125;60,120,1.7,1.125;90,130,1.7,1.125
+*/
+
+html {
+  font-size: 100%;
+  line-height: 1.3;
+}
+
+a {
+  background-color: transparent;
+}
+
+sub, sup {
+  font-size: 75%;
+  line-height: 1px;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -0.5em;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+pre, code, kbd, samp {
+  font-size: 100%;
+}
+
+abbr[title] {
+  border-bottom: 1px dotted;
+  text-decoration: none;
+}
+
+b, strong {
+  font-weight: bold;
+}
+
+dfn, caption {
+  font-style: italic;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid;
+  height: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+}
+
+th, td {
+  border-bottom: 1px solid;
+  text-align: left;
+}
+
+thead th {
+  vertical-align: bottom;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.normal {
+  font-weight: normal;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
+
+h1, h2, h3, h4, h5, h6,
+p, ul, ol, dl, dd, figure,
+blockquote, details, hr,
+fieldset, pre, table {
+  margin: 0 0 1.499rem;
+}
+
+.yotta {
+  font-size: 2.2807rem;
+  line-height: 1.3145;
+}
+
+.zetta {
+  font-size: 2.0273rem;
+  line-height: 1.4788;
+}
+
+h1, .exa {
+  font-size: 1.8020rem;
+  line-height: 1.6637;
+}
+
+h2, .peta {
+  font-size: 1.6018rem;
+  line-height: 1.8716;
+}
+
+h3, .tera {
+  font-size: 1.4238rem;
+  line-height: 1.0528;
+}
+
+h4, .giga {
+  font-size: 1.2656rem;
+  line-height: 1.1844;
+}
+
+h5, .mega {
+  font-size: 1.1250rem;
+  line-height: 1.3324;
+}
+
+h6, .kilo, input, textarea {
+  font-size: 1.0000rem;
+  line-height: 1.4990;
+}
+
+small, .milli {
+  font-size: 0.8889rem;
+  line-height: 1.6864;
+}
+
+.micro {
+  font-size: 0.7901rem;
+  line-height: 1.8972;
+}
+
+.push {
+  margin-bottom: 1.499rem;
+}
+
+.push-none, .push-0 {
+  margin-bottom: 0;
+}
+
+.push-double, .push-2 {
+  margin-bottom: 2.9980rem;
+}
+
+.push-half, .push-1-2 {
+  margin-bottom: 0.7495rem;
+}
+
+.push-quarter, .push-1-4 {
+  margin-bottom: 0.3748rem;
+}
+
+.push-right-quarter, .push-r-1-4 {
+  margin-right: 0.3748rem;
+}
+
+.push-right-half, .push-r-1-2 {
+  margin-right: 0.7495rem;
+}
+
+.push-right, .push-r {
+  margin-right: 1.499rem;
+}
+
+.pad-top, .pad-t {
+  padding-top: 1.499rem;
+}
+
+.pad-bottom, .pad-b {
+  padding-bottom: 1.499rem;
+}
+
+.pad-top-double, .pad-t-2 {
+  padding-top: 2.9980rem;
+}
+
+.pad-bottom-double, .pad-b-2 {
+  padding-bottom: 2.9980rem;
+}
+
+.pad-top-half, .pad-t-1-2 {
+  padding-top: 0.7495rem;
+}
+
+.pad-bottom-half, .pad-b-1-2 {
+  padding-bottom: 0.7495rem;
+}
+
+.pad-top-quarter, .pad-t-1-4 {
+  padding-top: 0.3748rem;
+}
+
+.pad-bottom-quarter, .pad-b-1-4 {
+  padding-bottom: 0.3748rem;
+}
+
+.island {
+  padding: 1.499rem;
+}
+
+.island-double, .island-2 {
+  padding: 2.9980rem;
+}
+
+.island-half, .island-1-2 {
+  padding: 0.7495rem;
+}
+
+.island-quarter, .island-1-4,
+td, th, fieldset {
+  padding: 0.3748rem;
+}
+
+.gutter {
+  padding-left: 1.499rem;
+  padding-right: 1.499rem;
+}
+
+.gutter-double, .gutter-2 {
+  padding-left: 2.9980rem;
+  padding-right: 2.9980rem;
+}
+
+.gutter-half, .gutter-1-2 {
+  padding-left: 0.7495rem;
+  padding-right: 0.7495rem;
+}
+
+.gutter-quarter, .gutter-1-4 {
+  padding-left: 0.3748rem;
+  padding-right: 0.3748rem;
+}
+
+@media only screen and (min-width: 38em) {
+
+html {
+  font-size: 110%;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6,
+p, ul, ol, dl, dd, figure,
+blockquote, details, hr,
+fieldset, pre, table {
+  margin: 0 0 1.6rem;
+}
+
+.yotta {
+  font-size: 2.2807rem;
+  line-height: 1.4031;
+}
+
+.zetta {
+  font-size: 2.0273rem;
+  line-height: 1.5785;
+}
+
+h1, .exa {
+  font-size: 1.8020rem;
+  line-height: 1.7758;
+}
+
+h2, .peta {
+  font-size: 1.6018rem;
+  line-height: 1.9977;
+}
+
+h3, .tera {
+  font-size: 1.4238rem;
+  line-height: 1.1237;
+}
+
+h4, .giga {
+  font-size: 1.2656rem;
+  line-height: 1.2642;
+}
+
+h5, .mega {
+  font-size: 1.1250rem;
+  line-height: 1.4222;
+}
+
+h6, .kilo, input, textarea {
+  font-size: 1.0000rem;
+  line-height: 1.6000;
+}
+
+small, .milli {
+  font-size: 0.8889rem;
+  line-height: 1.8000;
+}
+
+.micro {
+  font-size: 0.7901rem;
+  line-height: 2.0250;
+}
+
+.push {
+  margin-bottom: 1.6rem;
+}
+
+.push-none, .push-0 {
+  margin-bottom: 0;
+}
+
+.push-double, .push-2 {
+  margin-bottom: 3.2000rem;
+}
+
+.push-half, .push-1-2 {
+  margin-bottom: 0.8000rem;
+}
+
+.push-quarter, .push-1-4 {
+  margin-bottom: 0.4000rem;
+}
+
+.push-right-quarter, .push-r-1-4 {
+  margin-right: 0.4000rem;
+}
+
+.push-right-half, .push-r-1-2 {
+  margin-right: 0.8000rem;
+}
+
+.push-right, .push-r {
+  margin-right: 1.6rem;
+}
+
+.pad-top, .pad-t {
+  padding-top: 1.6rem;
+}
+
+.pad-bottom, .pad-b {
+  padding-bottom: 1.6rem;
+}
+
+.pad-top-double, .pad-t-2 {
+  padding-top: 3.2000rem;
+}
+
+.pad-bottom-double, .pad-b-2 {
+  padding-bottom: 3.2000rem;
+}
+
+.pad-top-half, .pad-t-1-2 {
+  padding-top: 0.8000rem;
+}
+
+.pad-bottom-half, .pad-b-1-2 {
+  padding-bottom: 0.8000rem;
+}
+
+.pad-top-quarter, .pad-t-1-4 {
+  padding-top: 0.4000rem;
+}
+
+.pad-bottom-quarter, .pad-b-1-4 {
+  padding-bottom: 0.4000rem;
+}
+
+.island {
+  padding: 1.6rem;
+}
+
+.island-double, .island-2 {
+  padding: 3.2000rem;
+}
+
+.island-half, .island-1-2 {
+  padding: 0.8000rem;
+}
+
+.island-quarter, .island-1-4,
+td, th, fieldset {
+  padding: 0.4000rem;
+}
+
+.gutter {
+  padding-left: 1.6rem;
+  padding-right: 1.6rem;
+}
+
+.gutter-double, .gutter-2 {
+  padding-left: 3.2000rem;
+  padding-right: 3.2000rem;
+}
+
+.gutter-half, .gutter-1-2 {
+  padding-left: 0.8000rem;
+  padding-right: 0.8000rem;
+}
+
+.gutter-quarter, .gutter-1-4 {
+  padding-left: 0.4000rem;
+  padding-right: 0.4000rem;
+}
+
+}
+
+@media only screen and (min-width: 60em) {
+
+html {
+  font-size: 120%;
+  line-height: 1.7;
+}
+
+h1, h2, h3, h4, h5, h6,
+p, ul, ol, dl, dd, figure,
+blockquote, details, hr,
+fieldset, pre, table {
+  margin: 0 0 1.7rem;
+}
+
+.yotta {
+  font-size: 2.2807rem;
+  line-height: 1.4908;
+}
+
+.zetta {
+  font-size: 2.0273rem;
+  line-height: 1.6771;
+}
+
+h1, .exa {
+  font-size: 1.8020rem;
+  line-height: 1.8868;
+}
+
+h2, .peta {
+  font-size: 1.6018rem;
+  line-height: 1.0613;
+}
+
+h3, .tera {
+  font-size: 1.4238rem;
+  line-height: 1.1940;
+}
+
+h4, .giga {
+  font-size: 1.2656rem;
+  line-height: 1.3432;
+}
+
+h5, .mega {
+  font-size: 1.1250rem;
+  line-height: 1.5111;
+}
+
+h6, .kilo, input, textarea {
+  font-size: 1.0000rem;
+  line-height: 1.7000;
+}
+
+small, .milli {
+  font-size: 0.8889rem;
+  line-height: 1.9125;
+}
+
+.micro {
+  font-size: 0.7901rem;
+  line-height: 2.1516;
+}
+
+.push {
+  margin-bottom: 1.7rem;
+}
+
+.push-none, .push-0 {
+  margin-bottom: 0;
+}
+
+.push-double, .push-2 {
+  margin-bottom: 3.4000rem;
+}
+
+.push-half, .push-1-2 {
+  margin-bottom: 0.8500rem;
+}
+
+.push-quarter, .push-1-4 {
+  margin-bottom: 0.4250rem;
+}
+
+.push-right-quarter, .push-r-1-4 {
+  margin-right: 0.4250rem;
+}
+
+.push-right-half, .push-r-1-2 {
+  margin-right: 0.8500rem;
+}
+
+.push-right, .push-r {
+  margin-right: 1.7rem;
+}
+
+.pad-top, .pad-t {
+  padding-top: 1.7rem;
+}
+
+.pad-bottom, .pad-b {
+  padding-bottom: 1.7rem;
+}
+
+.pad-top-double, .pad-t-2 {
+  padding-top: 3.4000rem;
+}
+
+.pad-bottom-double, .pad-b-2 {
+  padding-bottom: 3.4000rem;
+}
+
+.pad-top-half, .pad-t-1-2 {
+  padding-top: 0.8500rem;
+}
+
+.pad-bottom-half, .pad-b-1-2 {
+  padding-bottom: 0.8500rem;
+}
+
+.pad-top-quarter, .pad-t-1-4 {
+  padding-top: 0.4250rem;
+}
+
+.pad-bottom-quarter, .pad-b-1-4 {
+  padding-bottom: 0.4250rem;
+}
+
+.island {
+  padding: 1.7rem;
+}
+
+.island-double, .island-2 {
+  padding: 3.4000rem;
+}
+
+.island-half, .island-1-2 {
+  padding: 0.8500rem;
+}
+
+.island-quarter, .island-1-4,
+td, th, fieldset {
+  padding: 0.4250rem;
+}
+
+.gutter {
+  padding-left: 1.7rem;
+  padding-right: 1.7rem;
+}
+
+.gutter-double, .gutter-2 {
+  padding-left: 3.4000rem;
+  padding-right: 3.4000rem;
+}
+
+.gutter-half, .gutter-1-2 {
+  padding-left: 0.8500rem;
+  padding-right: 0.8500rem;
+}
+
+.gutter-quarter, .gutter-1-4 {
+  padding-left: 0.4250rem;
+  padding-right: 0.4250rem;
+}
+
+}
+
+@media only screen and (min-width: 90em) {
+
+html {
+  font-size: 130%;
+  line-height: 1.7;
+}
+
+h1, h2, h3, h4, h5, h6,
+p, ul, ol, dl, dd, figure,
+blockquote, details, hr,
+fieldset, pre, table {
+  margin: 0 0 1.7rem;
+}
+
+.yotta {
+  font-size: 2.2807rem;
+  line-height: 1.4908;
+}
+
+.zetta {
+  font-size: 2.0273rem;
+  line-height: 1.6771;
+}
+
+h1, .exa {
+  font-size: 1.8020rem;
+  line-height: 1.8868;
+}
+
+h2, .peta {
+  font-size: 1.6018rem;
+  line-height: 1.0613;
+}
+
+h3, .tera {
+  font-size: 1.4238rem;
+  line-height: 1.1940;
+}
+
+h4, .giga {
+  font-size: 1.2656rem;
+  line-height: 1.3432;
+}
+
+h5, .mega {
+  font-size: 1.1250rem;
+  line-height: 1.5111;
+}
+
+h6, .kilo, input, textarea {
+  font-size: 1.0000rem;
+  line-height: 1.7000;
+}
+
+small, .milli {
+  font-size: 0.8889rem;
+  line-height: 1.9125;
+}
+
+.micro {
+  font-size: 0.7901rem;
+  line-height: 2.1516;
+}
+
+.push {
+  margin-bottom: 1.7rem;
+}
+
+.push-none, .push-0 {
+  margin-bottom: 0;
+}
+
+.push-double, .push-2 {
+  margin-bottom: 3.4000rem;
+}
+
+.push-half, .push-1-2 {
+  margin-bottom: 0.8500rem;
+}
+
+.push-quarter, .push-1-4 {
+  margin-bottom: 0.4250rem;
+}
+
+.push-right-quarter, .push-r-1-4 {
+  margin-right: 0.4250rem;
+}
+
+.push-right-half, .push-r-1-2 {
+  margin-right: 0.8500rem;
+}
+
+.push-right, .push-r {
+  margin-right: 1.7rem;
+}
+
+.pad-top, .pad-t {
+  padding-top: 1.7rem;
+}
+
+.pad-bottom, .pad-b {
+  padding-bottom: 1.7rem;
+}
+
+.pad-top-double, .pad-t-2 {
+  padding-top: 3.4000rem;
+}
+
+.pad-bottom-double, .pad-b-2 {
+  padding-bottom: 3.4000rem;
+}
+
+.pad-top-half, .pad-t-1-2 {
+  padding-top: 0.8500rem;
+}
+
+.pad-bottom-half, .pad-b-1-2 {
+  padding-bottom: 0.8500rem;
+}
+
+.pad-top-quarter, .pad-t-1-4 {
+  padding-top: 0.4250rem;
+}
+
+.pad-bottom-quarter, .pad-b-1-4 {
+  padding-bottom: 0.4250rem;
+}
+
+.island {
+  padding: 1.7rem;
+}
+
+.island-double, .island-2 {
+  padding: 3.4000rem;
+}
+
+.island-half, .island-1-2 {
+  padding: 0.8500rem;
+}
+
+.island-quarter, .island-1-4,
+td, th, fieldset {
+  padding: 0.4250rem;
+}
+
+.gutter {
+  padding-left: 1.7rem;
+  padding-right: 1.7rem;
+}
+
+.gutter-double, .gutter-2 {
+  padding-left: 3.4000rem;
+  padding-right: 3.4000rem;
+}
+
+.gutter-half, .gutter-1-2 {
+  padding-left: 0.8500rem;
+  padding-right: 0.8500rem;
+}
+
+.gutter-quarter, .gutter-1-4 {
+  padding-left: 0.4250rem;
+  padding-right: 0.4250rem;
+}
+
+}
