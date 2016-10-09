@@ -12,6 +12,7 @@ html {
   text-size-adjust: 100%;
 
   font-family: 'Lato', sans-serif;
+  line-height: 1.4em;
 }
 
 *, *::before, *::after {
@@ -26,6 +27,9 @@ h1, h2, h3, h4, h5 {
   font-family: 'Josefin Slab', sans-serif;
 }
 
+h1 {
+  font-size: 4em;
+}
 
 h2 {
   text-align: center;
@@ -40,14 +44,19 @@ header {
   color: white;
   background-color: #666666;
   margin: 0;
-  padding: 3em 1em 2em 1em;
+  padding: 2em 1em 2em 1em;
   text-align: center;
+}
+
+main {
+  max-width: 50em;
+  margin: 0 auto;
 }
 
 footer {
   color: white;
   background-color: #666666;
-  margin: 0;
+  margin-top: 3em;
   padding: 1.5em 1em;
   text-align: center;
 }
@@ -69,7 +78,7 @@ footer li {
 }
 
 .billboard {
-  background-image: url(http://placehold.it/2000x500);
+  background-image: url(http://placehold.it/2000x2000);
   color: white;
   padding: 8em 1em;
   text-align: center;
@@ -83,11 +92,12 @@ footer li {
   padding: 1em;
   text-align: center;
   cursor: pointer;
+  display: inline-block;
 }
 
 .preview-img {
   border-radius: 100%;
   max-height: 9em ;
-  margin: auto;
+  margin: 0 auto;
   text-align: center;
 }
