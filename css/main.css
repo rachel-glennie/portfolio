@@ -12,7 +12,7 @@ html {
   text-size-adjust: 100%;
 
   font-family: 'Lato', sans-serif;
-  line-height: 1.4em;
+  line-height: 130%;
 }
 
 *, *::before, *::after {
@@ -29,6 +29,7 @@ h1, h2, h3, h4, h5 {
 
 h1 {
   font-size: 4em;
+  line-height: 100%;
 }
 
 h2 {
@@ -44,13 +45,15 @@ header {
   color: white;
   background-color: #666666;
   margin: 0;
-  padding: 2em 1em 2em 1em;
+  padding: 1em 1em 1em 1em;
   text-align: center;
 }
 
 main {
   max-width: 50em;
-  margin: 0 auto;
+  margin: auto;
+  padding: 0em 2em;
+  background-color:
 }
 
 footer {
@@ -83,6 +86,28 @@ footer li {
   padding: 8em 1em;
   text-align: center;
   margin-bottom: 2em;
+  max-width: 75em;
+}
+
+.billboard p{
+  font-size: 2em;
+  font-family: 'Josefin Slab', sans-serif;
+  line-height: 100%
+}
+
+
+.mini-billboard {
+  background-image: url(http://placehold.it/2000x2000);
+  color: white;
+  padding: 4em 1em;
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+.mini-billboard p{
+  font-size: 2em;
+  font-family: 'Josefin Slab', sans-serif;
+  line-height: 100%
 }
 
 .button {
@@ -95,9 +120,70 @@ footer li {
   display: inline-block;
 }
 
-.preview-img {
-  border-radius: 100%;
-  max-height: 9em ;
-  margin: 0 auto;
+
+hr {
+  margin: 3em;
+}
+
+.top-portfolio {
+  margin-top: 3em;
+}
+
+.portfolio-preview img {
+  padding-right: 1em;
+  max-width: 200px;
+  margin: auto;
   text-align: center;
+  margin-bottom: 1em;
+}
+
+.portfolio-preview a {
+  background-color: #626262;
+  line-height: 200%;
+  padding: 0.5em;
+  overflow: hidden;
+}
+
+.portfolio-preview p {
+  overflow: hidden;
+}
+
+
+
+
+@media only screen and (min-width: 605px) {
+
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
+  .billboard {
+    padding: 10em 6em;
+  }
+
+  .mini-billboard {
+    padding: 6em 4em;
+  }
+
+
+
+}
+
+@media only screen and (min-width: 960px) {
+
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+  .billboard {
+    padding: 12em 8em;
+  }
+
+
+  .mini-billboard {
+    padding: 6em 8em;
+  }
+
 }
