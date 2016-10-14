@@ -28,7 +28,7 @@ h1, h2, h3, h4, h5 {
 }
 
 h1 {
-  font-size: 4em;
+  font-size: 3em;
   line-height: 100%;
 }
 
@@ -65,7 +65,8 @@ footer {
 }
 
 footer p {
-  margin-bottom: 0em
+  margin-bottom: 0em;
+  font-size: 50%;
 }
 
 footer ul {
@@ -148,6 +149,24 @@ hr {
   overflow: hidden;
 }
 
+.first-img {
+  padding: 1em;
+  margin: 0em;
+}
+
+@media only screen and (min-width: 605px) {
+
+  .float-left {
+    float: left;
+    padding-right: 1em;
+  }
+
+  .float-right {
+    float: right;
+    padding-left: 1em;
+  }
+
+}
 
 
 
