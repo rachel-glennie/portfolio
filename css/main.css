@@ -154,6 +154,18 @@ hr {
   margin: 0em;
 }
 
+.contact {
+  font-size: 150%;
+  text-align: center;
+}
+
+.social-media {
+  max-width: 80px;
+  margin: auto;
+  text-align: center;
+}
+
+
 @media only screen and (min-width: 605px) {
 
   .float-left {
