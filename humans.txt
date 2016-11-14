@@ -1,0 +1,21 @@
+# TEAM
+Designer & Developer: Rachel Glennie <rachelgglennie@gmail.com>
+Site: rachelglennie.design
+Github: https://github.com/rachel-glennie
+Tumblr: http://rachel-glennie.tumblr.com/
+Location: Ottawa, Ontario, Canada
+
+---
+
+# THANKS
+
+
+
+---
+
+# TECHNOLOGY
+
+## Software
+
+- Sublime Text 3
+- Git + GitHub

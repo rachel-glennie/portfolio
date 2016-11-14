@@ -1,0 +1,4 @@
+Sitemap: https://rachelglennie.design/sitemap.xml
+
+User-agent: ☆
+Disallow: /img
