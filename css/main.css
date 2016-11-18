@@ -140,7 +140,7 @@ footer li {
 }
 
 .portfolio-billboard {
-  background-color: blue;
+  background-color: black;
 }
 
 .overeasy-billboard {
@@ -175,11 +175,11 @@ hr {
 }
 
 .portfolio-preview img {
-  padding-right: 1em;
   max-width: 200px;
-  margin: auto;
+  max-height: 300px;
+  margin: 1em;
   text-align: center;
-  margin-bottom: 1em;
+
 }
 
 .portfolio-button {
