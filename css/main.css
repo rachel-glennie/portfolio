@@ -118,6 +118,8 @@ footer li {
   padding: 4em 1em;
   text-align: center;
   margin-bottom: 2em;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .mini-billboard p,
@@ -127,8 +129,9 @@ footer li {
 .saas-website-billboard p,
 .grace-in-the-kitchen-billboard p{
   font-size: 2em;
+  padding: 1em;
   font-family: 'Josefin Slab', sans-serif;
-  line-height: 100%
+  line-height: 100%;
 }
 
 .mini-billboard {
@@ -136,7 +139,7 @@ footer li {
 }
 
 .contact-billboard {
-  background-color: yellow;
+  background-color: black;
 }
 
 .portfolio-billboard {
@@ -152,7 +155,8 @@ footer li {
 }
 
 .grace-in-the-kitchen-billboard {
-  background-color: red;
+
+  background-image: url("../images/gitk/gitk-billboard.png");
 }
 
 
