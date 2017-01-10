@@ -171,7 +171,12 @@ footer img {
 }
 
 .error-text {
-  stroke
+  border-radius: black;
+  text-shadow:
+   -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
 }
 
 .mini-billboard {
@@ -288,7 +293,7 @@ hr {
   }
 
   header img {
-    margin: 0.25em 0.5em;
+    margin: 0.5em 0.5em 0.12em 0.5em;
   }
 
   .billboard {
