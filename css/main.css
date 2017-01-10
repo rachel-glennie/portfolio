@@ -27,7 +27,6 @@ h1, h2, h3, h4, h5 {
   font-family: 'Josefin Slab', sans-serif;
 }
 
-
 h1 {
   font-size: 3em;
   line-height: 100%;
@@ -61,7 +60,7 @@ header li {
 header li a {
   color: #af8b18;
   transition: all 150ms linear;
-  padding: 0.75em;
+  padding: 0.5em 0.75em;
 }
 
 header li a:hover {
@@ -206,7 +205,7 @@ footer img {
 
 
 .button {
-  background-color: #af8b18;
+  background-color: #626262;
   color: white;
   margin: 1em 2em auto;
   max-width: 12em;
@@ -214,6 +213,11 @@ footer img {
   text-align: center;
   cursor: pointer;
   display: inline-block;
+  transition: all 112ms linear;
+}
+
+.button:hover {
+  background-color: #af8b18;
 }
 
 hr {
@@ -233,21 +237,23 @@ hr {
 }
 
 .portfolio-button {
-  background-color: #af8b18;
+  background-color: #626262;
   color: white;
   margin: 1.5em 0em;
   padding: 0.75em;
   text-align: center;
   cursor: pointer;
   display: inline-block;
-}
-
-.portfolio-preview a {
-  background-color: #626262;
+  transition: all 112ms linear;
   line-height: 200%;
   padding: 0.5em;
   overflow: hidden;
 }
+
+.portfolio-button:hover {
+  background-color: #af8b18;
+}
+
 
 .portfolio-preview p {
   overflow: hidden;
