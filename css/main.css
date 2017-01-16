@@ -111,19 +111,25 @@ footer img {
   height: 50px;
 }
 
-.billboard {
+.main-billboard {
+  background-image: url("../images/main-billboard.jpg");
+  background-repeat: no-repeat;
   background-color: black;
   color: white;
-  padding: 8em 1em;
+  padding: 11em 1em;
   text-align: center;
   margin-bottom: 2em;
-  max-width: 75em;
 }
 
-.billboard p {
+.main-billboard p {
   font-size: 2em;
   font-family: 'Josefin Slab', sans-serif;
   line-height: 100%
+  text-shadow:
+   -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
 }
 
 .mini-billboard,
@@ -139,8 +145,6 @@ footer img {
   background-repeat: no-repeat;
   background-position: center;
 }
-
-
 
 .mini-billboard p,
 .contact-billboard p,
@@ -170,7 +174,6 @@ footer img {
 }
 
 .error-text {
-  border-radius: black;
   text-shadow:
    -1px -1px 0 #000,
     1px -1px 0 #000,
@@ -274,6 +277,18 @@ hr {
   color: #af8b18;
 }
 
+.dead-button {
+  background-color: #626262;
+  color: white;
+  margin: 1.5em 0em;
+  padding: 0.75em;
+  text-align: center;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 200%;
+  padding: 0.5em;
+  overflow: hidden;
+}
 
 @media only screen and (min-width: 605px) {
 
