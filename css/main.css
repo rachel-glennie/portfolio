@@ -111,6 +111,11 @@ footer img {
   height: 50px;
 }
 
+.profile {
+  max-width: 250px;
+  margin: 1em;
+}
+
 .main-billboard {
   background-image: url("../images/main-billboard.jpg");
   background-repeat: no-repeat;
