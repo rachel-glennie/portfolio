@@ -124,12 +124,12 @@ footer img {
 .main-billboard p {
   font-size: 2em;
   font-family: 'Josefin Slab', sans-serif;
-  line-height: 100%
+  line-height: 100%;
   text-shadow:
-   -1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-     1px 1px 0 #000;
+   -0.5px -0.5px 0 #000,
+    0.5px -0.5px 0 #000,
+    -0.5px 0.5px 0 #000,
+     0.5px 0.5px 0 #000;
 }
 
 .mini-billboard,
@@ -209,7 +209,7 @@ footer img {
 }
 
 .grace-in-the-kitchen-billboard {
-  background-image: url("../images/gitk/gitk-billboard.png");
+  background-image: url("../images/gitk/gitk-billboard.jpg");
 }
 
 .grip-billboard {
