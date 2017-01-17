@@ -137,6 +137,7 @@ footer img {
 .portfolio-billboard,
 .overeasy-billboard,
 .saas-website-billboard,
+.grip-billboard,
 .grace-in-the-kitchen-billboard {
   color: white;
   padding: 4em 1em;
@@ -151,11 +152,17 @@ footer img {
 .portfolio-billboard p,
 .overeasy-billboard p,
 .saas-website-billboard p,
+.grip-billboard p,
 .grace-in-the-kitchen-billboard p{
   font-size: 2em;
   padding: 1em;
   font-family: 'Josefin Slab', sans-serif;
   line-height: 100%;
+  text-shadow:
+   -0.5px -0.5px 0 #000,
+    0.5px -0.5px 0 #000,
+    -0.5px 0.5px 0 #000,
+     0.5px 0.5px 0 #000;
 }
 
 .error-billboard {
@@ -202,10 +209,12 @@ footer img {
 }
 
 .grace-in-the-kitchen-billboard {
-
   background-image: url("../images/gitk/gitk-billboard.png");
 }
 
+.grip-billboard {
+  background-image: url("../images/grip/grip-billboard.jpg")
+}
 
 .button {
   background-color: #626262;
@@ -288,6 +297,24 @@ hr {
   line-height: 200%;
   padding: 0.5em;
   overflow: hidden;
+}
+
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 35px;
+  height: 0;
+  margin: 2em 0em;
+  overflow: hidden;
+}
+
+.video-container iframe {
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 @media only screen and (min-width: 605px) {
